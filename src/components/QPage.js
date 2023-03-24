@@ -14,7 +14,7 @@ export const QPage = ({ label, text, point, addPoint = () => {}, delPoint = () =
         <Typography gutterBottom variant="h5" component="div">
           Question {label}
         </Typography>
-        <Typography variant="body1" color="text.secondary">
+        <Typography variant="body1" variant="h6" color="text.secondary">
           {text}
         </Typography>
 
