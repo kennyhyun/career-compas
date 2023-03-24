@@ -6,7 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-export const QPage = ({ label, text, point, add, delete }) => {
+export const QPage = ({ label, text, point, addPoint, delPoint }) => {
   return (
     <Card>
       <CardMedia component="img" height="140" image="image/question/IMG_0002.JPG" />
@@ -18,12 +18,12 @@ export const QPage = ({ label, text, point, add, delete }) => {
           {text}
         </Typography>
 
-        <Button size="lage" fullWidth={true} variant="contained" onClick={add(point)} >
+        <Button size="lage" fullWidth={true} variant="contained" onClick={addPoint(point)}>
           YES
         </Button>
         <br />
         <br />
-        <Button size="large" fullWidth={true} variant="contained" onClick={delete(point)}>
+        <Button size="large" fullWidth={true} variant="contained" onClick={delPoint(point)}>
           NO
         </Button>
       </CardContent>
