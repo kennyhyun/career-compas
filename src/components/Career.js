@@ -107,7 +107,7 @@ const Career = () => {
     const [[industry, total]] = sorted;
     context.current.industry = industry;
     context.current.total = total;
-    context.current.percent = total / (maxWeight * 2) * 10;
+    context.current.percent = total / (maxWeight * 2) / questions.length * 100;
     // get top industry
   }
   
@@ -120,7 +120,7 @@ const Career = () => {
     {qidx < questions.length ?
       <QPage primary text={questions[qidx]} label={String(qidx + 1).padStart(2, '0')} addPoint={yes} delPoint={no}/>
       :
-      <QResult industry={context.current.industry} percent={context.current.percent}/>
+      <QResult industry={context.current.industry} percent={context.current.percent.toFixed()}/>
     }
   </>);
 };
