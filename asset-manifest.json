@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/career-compas/static/css/main.073c9b0a.css",
-    "main.js": "/career-compas/static/js/main.b4681191.js",
+    "main.js": "/career-compas/static/js/main.a46f41bc.js",
     "static/js/787.cc1f3469.chunk.js": "/career-compas/static/js/787.cc1f3469.chunk.js",
     "static/media/logo.svg": "/career-compas/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/career-compas/index.html",
     "main.073c9b0a.css.map": "/career-compas/static/css/main.073c9b0a.css.map",
-    "main.b4681191.js.map": "/career-compas/static/js/main.b4681191.js.map",
+    "main.a46f41bc.js.map": "/career-compas/static/js/main.a46f41bc.js.map",
     "787.cc1f3469.chunk.js.map": "/career-compas/static/js/787.cc1f3469.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.b4681191.js"
+    "static/js/main.a46f41bc.js"
   ]
 }
