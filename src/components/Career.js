@@ -63,7 +63,7 @@ const setPoints = (answers = []) => {
       if (answers[i] > 0) {
         score += weights[i] + maxWeight;
       } else {
-        score += weights[i] * -1 + maxWeight;
+        score += maxWeight - weights[i];
       }
     }
     scores[industry] = score;
