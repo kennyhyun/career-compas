@@ -32,25 +32,24 @@ const questions = [
   'I enjoy working independently.',
   'I am a creative person.',
   'I like working with people.',
-]
-//   'I am detail-oriented.',
-//   'I am comfortable with technology.',
-//   'I am comfortable with public speaking.',
-//   'I enjoy problem-solving.',
-//   'I am comfortable with ambiguity.',
-//   'I am interested in science and/or mathematics.',
-//   'I have strong analytical skills.',
-//   'I am comfortable with physical activity.',
-//   'I enjoy learning new things.',
-//   'I am interested in environmental issues.',
-//   'I am interested in helping others.',
-//   'I am interested in the arts.',
-//   'I am comfortable with deadlines.',
-//   'I enjoy teamwork.',
-//   'I am interested in business.',
-//   'I am interested in healthcare.',
-//   'I enjoy traveling.'
-// ];
+  'I am detail-oriented.',
+  'I am comfortable with technology.',
+  'I am comfortable with public speaking.',
+  'I enjoy problem-solving.',
+  'I am comfortable with ambiguity.',
+  'I am interested in science and/or mathematics.',
+  'I have strong analytical skills.',
+  'I am comfortable with physical activity.',
+  'I enjoy learning new things.',
+  'I am interested in environmental issues.',
+  'I am interested in helping others.',
+  'I am interested in the arts.',
+  'I am comfortable with deadlines.',
+  'I enjoy teamwork.',
+  'I am interested in business.',
+  'I am interested in healthcare.',
+  'I enjoy traveling.'
+];
 const maxWeight = 5;
 const sumArray = arr => arr.reduce((sum, i) => sum + i + maxWeight, 0);
 
@@ -108,7 +107,7 @@ const Career = () => {
     const [[industry, total]] = sorted;
     context.current.industry = industry;
     context.current.total = total;
-    context.current.percent = total / (maxWeight * 2) * 100;
+    context.current.percent = total / (maxWeight * 2) * 10;
     // get top industry
   }
   
