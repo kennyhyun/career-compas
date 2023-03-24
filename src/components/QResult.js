@@ -14,9 +14,10 @@ export const QResult = ({ industry, percent }) => {
       <Typography variant="h4" gutterBottom>
         {industry}
       </Typography>
-
+      <Typography variant="h4" gutterBottom>
+        {percent}%
+      </Typography>
       <CircularProgress variant="determinate" value={percent} size={100} />
-
       <Typography variant="h5" gutterBottom>
         Possible Job Titles:
       </Typography>
