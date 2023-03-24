@@ -17,25 +17,25 @@ export const Primary = Template.bind({});
 
 Primary.args = {
   primary: true,
-  label: "Primary",
+  label: "01",
   text: "awsdfewejfeowpfjewlkfjeiowjfoiefjewoifjencjfeiwopjeiofjncewoifjnewoifcjnweofcjnewif",
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  label: "Secondary",
+  label: "02",
 };
 
 export const Large = Template.bind({});
 Large.args = {
+  label: "02",
   size: "large",
-  label: "Large",
   text: "awsdfewejfeowpfjewlkfjeiowjfoiefjewoifjencjfeiwopjeiofjncewoifjnewoifcjnweofcjnewif",
 };
 
 export const Small = Template.bind({});
 Small.args = {
+  label: "03",
   size: "small",
-  label: "Small",
   text: "awsdfewejfeowpfjewlkfjeiowjfoiefjewoifjencjfeiwopjeiofjncewoifjnewoifcjnweofcjnewif",
 };
