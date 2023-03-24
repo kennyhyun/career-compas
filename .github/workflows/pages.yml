@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: |
           npm ci
-          npm run build
+          PUBLIC_URL=/career-compas npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
