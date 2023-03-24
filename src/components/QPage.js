@@ -9,7 +9,7 @@ import Typography from "@mui/material/Typography";
 export const QPage = ({ label, text, point }) => {
   return (
     <Card>
-      <CardMedia component="img" height="140" image="image/question/IMG_0002.JPG" />
+      <CardMedia component="img" height="140" image="/images/02.jpg" />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Question 1
